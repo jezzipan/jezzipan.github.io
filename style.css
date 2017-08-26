@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.presentation {
+    background-color: black;
+    width: 100%;
+    height: 100vh; 
+    background-image: url("image/planetas.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation h1,
+.presentation h2 {
+    color: white;
+}
+
+.presentation h1 {
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+.presentation h2 {
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;    
+}
+
+.about {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.skills li + li {
+    margin-top: 30px;
+}
+
+.contact {
+    background-image: 
+        linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.9)),
+        url("image/fosg.jpg");
+    background-color: black;
+    width: 100%;
+    height: 30vh; 
+    background-repeat: no-repeat;
+    background-position: center center;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h1, .contact p {
+    color: white;    
+    
+}
