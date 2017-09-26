@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    }
+.menu {
+    background-color: #e6ffe6;
+    background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");
+    background-attachment: fixed;
+    background-color: rgba(204, 255, 204, 0.5);   
+    text-align: center;
+    padding: 50px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.perfil {
+    width: 150px;
+    border-radius: 50%
+}
+
+.navegacao{
+    margin-top: 40px;
+    padding: 
+}
+
+.list-item, a{
+    display: inline;
+    margin: 0 8px 0 8px;
+    text-decoration: none;
+    color:  #4d004d;
+}
+
+.list-item, a:hover{
+     color: #804d00;
+}
+
+.header-menu{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+main{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6ecff;
+    font-family: 'Arbutus Slab', serif;
+}
+
+section{
+    display: flex;
+    border-bottom: 0.5px #a6a6a6 solid;
+    padding: 2px;
+}
+
+h3 {
+    min-width: 300px;
+    font-size: 20px;
+
+}
+
+li{
+    list-style: none;
+    
+}
+ ol {
+     padding: 0;
+ }
+
+h4{
+    margin-bottom: 0;
+    
+}
+
+h5{
+    margin-top: 0;
+}
+
+footer{
+    background-color: #ccffcc;
+    text-align: center;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.core{
+    color: darkred;
+
+}
+
+.redes {
+    width: 70px;
+    text-align: center;
+}
