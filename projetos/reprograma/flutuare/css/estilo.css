@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0;
+}
+a li{
+    text-decoration: none;
+    
+}
+section{
+    padding: 30px 0;
+}
+
+li {
+    list-style: none;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto; /*centralizar*/
+}
+
+h1, h2 {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p, span, figcaption {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 3px rgba(125, 125, 125, .5);
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 10;
+}
+
+.nav-logo img {
+    height: 70px;
+}
+
+ul{
+    display: inline-flex;
+    padding: 0;
+    width: 360px;
+    justify-content: space-around;   
+  }
+
+  .navbar .container{
+    width: 60%;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+ li > a{
+     color: #333;
+ }
+
+header{
+    background-color:  #333;
+    color: white;
+    text-align: center;
+    background-image: url('../image/banner.jpg');
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 5%;
+   
+}
+
+.destaque{
+    color: yellow;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.items > div {
+    max-width: 200px; /*deixa o texto e a imagem em bloco*/
+    position: relative;
+}
+
+.items > div > img{
+    width: 100%;
+}
+
+.cta {
+    background: url('../image/cta.png');
+    background-size: cover;
+    padding-top: 50px;
+    color: white;
+}
+
+.cta-conteudo{
+    border: 1px solid white;
+    padding: 20px;
+
+}
+
+.cta-form{
+    text-align: center;
+}
+.mensalidade{
+    text-align: center;
+}
+
+.cta-form input[type="email"]{  /*tamanho/cor no campo email*/
+    width: 50%;
+    height: 30px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    padding-left: 10px;
+ }
+
+.cta-form input[type="submit"]{  /*tamanho/cor no campo botão*/
+    background-color: #ff471a;
+    border: 0;
+    padding: 10px 25px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.destaque-star{
+    position: absolute;
+    max-width: 45px;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width:768px) { /*menor que tela 768*/
+    .container{
+        width: 100%;
+    }
+    .navbar{
+        display: none;
+    }
+    h1{
+        font-size: 2em;
+    }
+    header {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-form input[type="email"]{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .cta{
+        padding: 30px;
+    }
+}
