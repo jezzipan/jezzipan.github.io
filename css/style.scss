@@ -188,7 +188,7 @@ $default-layout-direction: LTR !default;
   background-color: #111;
   width: 100vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-around; //ver isso//
   align-items: center;
   padding: 15px;
 }
